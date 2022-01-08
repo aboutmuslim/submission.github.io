@@ -1,0 +1,684 @@
+
+
+.contain-english{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+@media (min-width: 280px) and (max-width: 430px){
+
+
+   .contain-2-e{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+     
+   }
+
+  .cards-sm{
+      width: 107px;
+      height: 80px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 20px;
+      box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+      text-align: center;
+      border-radius: 5px;
+      font-family: 'Noto Nastaliq Urdu', serif;
+  }
+
+  .cards-sm-img{
+      width: 45%;
+     
+     
+  }
+
+  .cards-sm-tital{
+      font-size: 13px;
+      font-weight: 600;
+      position: relative;
+      top: 10px; 
+      font-family: 'Roboto Slab', serif;  
+  }
+
+  .cards-sm-p{
+    display: none;
+ }
+
+
+  .contain-3-e{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+ }
+
+ .cards-md{
+    width: 250px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+    text-align: center;
+    border-radius: 5px;
+}
+ 
+.cards-md-img{
+    width: 50px;
+    position: relative;
+    right: 5.2rem;
+    top: 1.5rem;
+    
+}
+
+.cards-md-tital{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    bottom: 2.7rem;
+    left: 1rem;
+}
+
+.cards-md-p{
+    font-size: 12.5px;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    left: 6.2rem;
+    bottom: 2.5rem;
+}
+
+}
+
+@media (min-width: 431px) and (max-width: 509px){
+
+
+    .contain-2-e{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+      
+    }
+ 
+   .cards-sm{
+       width: 120px;
+       height: 100px;
+       background-color: rgb(247, 247, 247);
+       margin-left: 5px;
+       margin-right: 5px;
+       margin-top: 20px;
+       box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+       text-align: center;
+       border-radius: 5px;
+       font-family: 'Noto Nastaliq Urdu', serif;
+   }
+ 
+   .cards-sm-img{
+       width: 49%;
+      
+      
+   }
+ 
+   .cards-sm-tital{
+       font-size: 15px;
+       font-weight: 600;
+       position: relative;
+       top: 10px; 
+       font-family: 'Roboto Slab', serif;  
+   }
+
+   .cards-sm-p{
+    display: none;
+ }
+ 
+ 
+   .contain-3-e{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    
+  }
+ 
+  .cards-md{
+     width: 340px;
+     height: 130px;
+     background-color: rgb(247, 247, 247);
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-top: 20px;
+     box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+     text-align: center;
+     border-radius: 5px;
+ }
+  
+ .cards-md-img{
+     width: 60px;
+     position: relative;
+     right: 7rem;
+     top: 2rem;
+     
+ }
+ 
+ .cards-md-tital{
+     font-size: 16px;
+     font-weight: 700;
+     position: relative;
+     bottom: 2.7rem;
+     left: 1.5rem;
+ }
+ 
+ .cards-md-p{
+     font-size: 14.5px;
+     font-weight: 600;
+     text-align: left;
+     position: relative;
+     left: 8.5rem;
+     bottom: 2.5rem;
+ }
+ 
+ }
+
+ @media (min-width: 510px) and (max-width: 660px){
+    .contain-2-e{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+     }
+  
+    .cards-sm{
+        width: 160px;
+        height: 130px;
+        background-color: rgb(247, 247, 247);
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 20px;
+        box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+        text-align: center;
+        border-radius: 5px;
+        font-family: 'Noto Nastaliq Urdu', serif;
+    }
+  
+    .cards-sm-img{
+        width: 45%;
+        margin-top: 0.8rem;
+       
+       
+    }
+  
+    .cards-sm-tital{
+        font-size: 15px;
+        font-weight: 600;
+        position: relative;
+        top: 10px; 
+        font-family: 'Roboto Slab', serif;  
+    }
+
+    .cards-sm-p{
+        display: none;
+     }
+  
+  
+    .contain-3-e{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+     
+   }
+  
+   .cards-md{
+      width: 240px;
+      height: 130px;
+      background-color: rgb(247, 247, 247);
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 20px;
+      box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+      text-align: center;
+      border-radius: 5px;
+  }
+   
+  .cards-md-img{
+      width: 50px;
+      position: relative;
+      right: 5rem;
+      top: 2.5rem;
+      
+  }
+  
+  .cards-md-tital{
+      font-size: 16px;
+      font-weight: 700;
+      position: relative;
+      bottom: 2.7rem;
+      left: 1.5rem;
+  }
+  
+  .cards-md-p{
+      font-size: 13.5px;
+      font-weight: 600;
+      text-align: left;
+      position: relative;
+      left: 5rem;
+      bottom: 2.5rem;
+  }
+
+  #cards-md-p-1{
+    position: relative;
+    left: 5.8rem;
+    bottom: 1.7rem;
+  }
+
+  .accordion-p{
+    font-size: 18px;
+}
+ }
+
+ @media (min-width: 661px) and (max-width: 760px){
+    .contain-2-e{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+       
+     }
+  
+    .cards-sm{
+        width: 200px;
+        height: 150px;
+        background-color: rgb(247, 247, 247);
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 20px;
+        box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+        text-align: center;
+        border-radius: 5px;
+        font-family: 'Noto Nastaliq Urdu', serif;
+    }
+  
+    .cards-sm-img{
+        width: 45%;
+        margin-top: 0.8rem;
+       
+       
+    }
+  
+    .cards-sm-tital{
+        font-size: 17px;
+        font-weight: 700;
+        position: relative;
+        top: 10px; 
+        font-family: 'Roboto Slab', serif;  
+    }
+
+    .cards-sm-p{
+       display: none;
+    }
+  
+  
+    .contain-3-e{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+     
+   }
+  
+   .cards-md{
+      width: 280px;
+      height: 150px;
+      background-color: rgb(247, 247, 247);
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-top: 20px;
+      box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+      text-align: center;
+      border-radius: 5px;
+  }
+   
+  .cards-md-img{
+      width: 60px;
+      position: relative;
+      right: 6rem;
+      top: 2.5rem;
+      
+  }
+  
+  .cards-md-tital{
+      font-size: 16px;
+      font-weight: 700;
+      position: relative;
+      bottom: 2.7rem;
+      left: 1rem;
+  }
+  
+  .cards-md-p{
+      font-size: 15px;
+      font-weight: 600;
+      text-align: left;
+      position: relative;
+      left: 6rem;
+      bottom: 2.5rem;
+  }
+
+  #cards-md-p-1{
+    position: relative;
+    left: 5.8rem;
+    bottom: 1.7rem;
+  }
+
+  .accordion-p{
+      font-size: 20px;
+  }
+ }
+ 
+ @media (min-width: 761px) and (max-width: 860px){
+
+
+    .contain-2-e{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+      
+    }
+ 
+   .cards-sm{
+    width: 350px;
+    height: 140px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+    text-align: center;
+    border-radius: 5px;
+   }
+ 
+   .cards-sm-img{
+    width: 60px;
+    position: relative;
+    right: 7.5rem;
+    top: 2.7rem;
+      
+      
+   }
+ 
+   .cards-sm-tital{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+   }
+
+   .cards-sm-p{
+    font-size: 14.5px;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    left: 7rem;
+    bottom: 2.5rem;
+}
+
+.accordion-p{
+    font-size: 18px;
+   
+}
+ 
+
+ 
+   .contain-3-e{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    
+  }
+ 
+  .cards-md{
+     width: 340px;
+     height: 130px;
+     background-color: rgb(247, 247, 247);
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-top: 20px;
+     box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+     text-align: center;
+     border-radius: 5px;
+ }
+  
+ .cards-md-img{
+     width: 60px;
+     position: relative;
+     right: 7rem;
+     top: 2rem;
+     
+ }
+ 
+ .cards-md-tital{
+     font-size: 16px;
+     font-weight: 700;
+     position: relative;
+     bottom: 2.7rem;
+     left: 1.5rem;
+ }
+ 
+ .cards-md-p{
+     font-size: 14.5px;
+     font-weight: 600;
+     text-align: left;
+     position: relative;
+     left: 8.5rem;
+     bottom: 2.5rem;
+ }
+ 
+ }
+
+ @media (min-width: 861px) and (max-width: 960px){
+
+
+    .contain-2-e{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+      
+    }
+ 
+   .cards-sm{
+    width: 400px;
+    height: 160px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+    text-align: center;
+    border-radius: 5px;
+   }
+ 
+   .cards-sm-img{
+    width: 70px;
+    position: relative;
+    right: 8.5rem;
+    top: 2.7rem;
+      
+      
+   }
+ 
+   .cards-sm-tital{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    bottom: 3rem;
+    left: 1.5rem;
+   }
+
+   .cards-sm-p{
+    font-size: 15.5px;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    left: 9rem;
+    bottom: 2.5rem;
+}
+
+.accordion-p{
+    font-size: 20px;
+   
+}
+ 
+ 
+   .contain-3-e{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    
+  }
+ 
+  .cards-md{
+     width: 340px;
+     height: 130px;
+     background-color: rgb(247, 247, 247);
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-top: 20px;
+     box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+     text-align: center;
+     border-radius: 5px;
+ }
+  
+ .cards-md-img{
+     width: 60px;
+     position: relative;
+     right: 7rem;
+     top: 2rem;
+     
+ }
+ 
+ .cards-md-tital{
+     font-size: 16px;
+     font-weight: 700;
+     position: relative;
+     bottom: 2.7rem;
+     left: 1.5rem;
+ }
+ 
+ .cards-md-p{
+     font-size: 14.5px;
+     font-weight: 600;
+     text-align: left;
+     position: relative;
+     left: 8.5rem;
+     bottom: 2.5rem;
+ }
+ 
+ }
+
+ @media (min-width: 961px) and (max-width: 1060px){
+
+
+    .contain-2-e{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+      
+    }
+ 
+   .cards-sm{
+    width: 440px;
+    height: 180px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+    text-align: center;
+    border-radius: 5px;
+   }
+ 
+   .cards-sm-img{
+    width: 80px;
+    position: relative;
+    right: 9.5rem;
+    top: 3.4rem;
+      
+      
+   }
+ 
+   .cards-sm-tital{
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    bottom: 4rem;
+    left: 1.5rem;
+   }
+
+   .cards-sm-p{
+    font-size: 16.5px;
+    font-weight: 600;
+    text-align: left;
+    position: relative;
+    left: 10rem;
+    bottom: 2.5rem;
+}
+
+.accordion-p{
+    font-size: 20px;
+}
+ 
+ 
+   .contain-3-e{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+    
+  }
+ 
+  .cards-md{
+     width: 340px;
+     height: 130px;
+     background-color: rgb(247, 247, 247);
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-top: 20px;
+     box-shadow: 3px 3px 3px  rgb(160, 160, 160);
+     text-align: center;
+     border-radius: 5px;
+ }
+  
+ .cards-md-img{
+     width: 60px;
+     position: relative;
+     right: 7rem;
+     top: 2rem;
+     
+ }
+ 
+ .cards-md-tital{
+     font-size: 16px;
+     font-weight: 700;
+     position: relative;
+     bottom: 2.7rem;
+     left: 1.5rem;
+ }
+ 
+ .cards-md-p{
+     font-size: 14.5px;
+     font-weight: 600;
+     text-align: left;
+     position: relative;
+     left: 8.5rem;
+     bottom: 2.5rem;
+ }
+ 
+ }
+
+
+
